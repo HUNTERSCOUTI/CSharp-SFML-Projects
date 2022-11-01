@@ -3,6 +3,7 @@ using SFML.Window;
 using SFML.System;
 using SFML.Audio;
 using System;
+using System.Numerics;
 
 namespace SFMLFirstGame
 {
@@ -10,6 +11,13 @@ namespace SFMLFirstGame
     {
         public const int TargetFPS = 60;
         public const float TimeUntilUpdate = 1f/TargetFPS;
+
+        public const float spriteBlockSize = 6f;
+
+        public int playerXPosition = (int)FirstGame.defaultWindowWidth / 2;
+        public int playerYPosition = (int)FirstGame.defaultWindowHeight / 2;
+
+        public Player player = new();
 
         public RenderWindow Window
         {
@@ -32,7 +40,10 @@ namespace SFMLFirstGame
             WindowsClearColor = windowClearColor;
             Window = new RenderWindow(new VideoMode(windowWidth, windowHeight), windowTitle);
             GameTime = new GameTime();
+
+            //Subscriptions
             Window.Closed += Window_Closed;
+            Window.KeyPressed += Window_KeyPressed;
         }
 
         // How the game will run from start to finish
@@ -80,6 +91,28 @@ namespace SFMLFirstGame
         private void Window_Closed(object? sender, EventArgs e)
         {
             Window.Close();
+        }
+        private void Window_KeyPressed(object? sender, KeyEventArgs e)
+        {
+            switch (e.Code)
+            {
+                //UP
+                case Keyboard.Key.W:
+                    playerYPosition -= (int)spriteBlockSize;
+                    break;
+                //LEFT
+                case Keyboard.Key.A:
+                    playerXPosition -= (int)spriteBlockSize;
+                    break;
+                //DOWN
+                case Keyboard.Key.S:
+                    playerYPosition += (int)spriteBlockSize;
+                    break;
+                //RIGHT
+                case Keyboard.Key.D:
+                    playerXPosition += (int)spriteBlockSize;
+                    break;
+            }
         }
     }
 }

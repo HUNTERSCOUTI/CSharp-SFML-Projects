@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\zilas\\source\\repos\\CSharp-SFML-Projects\\SFML-FirstGame\\SFMLFirstGame.csproj": {}
+    "C:\\Users\\ZilasJ\\Source\\Repos\\CSharp-SFML-Projects\\SFML-FirstGame\\SFMLFirstGame.csproj": {}
   },
   "projects": {
-    "C:\\Users\\zilas\\source\\repos\\CSharp-SFML-Projects\\SFML-FirstGame\\SFMLFirstGame.csproj": {
+    "C:\\Users\\ZilasJ\\Source\\Repos\\CSharp-SFML-Projects\\SFML-FirstGame\\SFMLFirstGame.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\zilas\\source\\repos\\CSharp-SFML-Projects\\SFML-FirstGame\\SFMLFirstGame.csproj",
+        "projectUniqueName": "C:\\Users\\ZilasJ\\Source\\Repos\\CSharp-SFML-Projects\\SFML-FirstGame\\SFMLFirstGame.csproj",
         "projectName": "SFMLFirstGame",
-        "projectPath": "C:\\Users\\zilas\\source\\repos\\CSharp-SFML-Projects\\SFML-FirstGame\\SFMLFirstGame.csproj",
-        "packagesPath": "C:\\Users\\zilas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\zilas\\source\\repos\\CSharp-SFML-Projects\\SFML-FirstGame\\obj\\",
+        "projectPath": "C:\\Users\\ZilasJ\\Source\\Repos\\CSharp-SFML-Projects\\SFML-FirstGame\\SFMLFirstGame.csproj",
+        "packagesPath": "C:\\Users\\ZilasJ\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ZilasJ\\Source\\Repos\\CSharp-SFML-Projects\\SFML-FirstGame\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\zilas\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\ZilasJ\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,8 +22,8 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://www.myget.org/F/discord-net/api/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {

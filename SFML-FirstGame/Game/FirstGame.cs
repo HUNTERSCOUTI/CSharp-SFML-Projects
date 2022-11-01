@@ -12,7 +12,7 @@ namespace SFMLFirstGame
 {
     public class FirstGame : GameLoop
     {
-        public const string Title = "Template";
+        public const string Title = "First Game";
 
         public const uint defaultWindowWidth = 1280;
         public const uint defaultWindowHeight = 720;
@@ -48,6 +48,20 @@ namespace SFMLFirstGame
                 Position = new Vector2f(defaultWindowWidth/2 - rectWidth, defaultWindowHeight/2 - rectHeight),
             };
 
+            // Player
+            Sprite playerSprite = new()
+            {
+                Position = new Vector2f(playerXPosition, playerYPosition),
+                // 0.2 in scale
+                Scale = new Vector2f(1/spriteBlockSize, 1/spriteBlockSize),
+                Texture = new Texture("./images/playerSprite.png")
+                {
+                    Repeated = false,
+                    Smooth = false
+                }
+            };
+
+            Window.Draw(playerSprite);
             Window.Draw(rect);
         }
     }
