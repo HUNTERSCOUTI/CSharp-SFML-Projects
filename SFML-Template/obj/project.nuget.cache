@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "dn8P/OVw2pMxBTQnM+hRN+TzF5iAS4cPLkvIFF/ZZvznkD0FOVcBox+T4TTzzFzttZArutWd1V7TAwfAEmr3jg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\zilas\\source\\repos\\CSharp-SFML-Projects\\SFML-Template\\SFMLTemplate.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\zilas\\.nuget\\packages\\csfml\\2.5.0\\csfml.2.5.0.nupkg.sha512",
+    "C:\\Users\\zilas\\.nuget\\packages\\sfml.audio\\2.5.0\\sfml.audio.2.5.0.nupkg.sha512",
+    "C:\\Users\\zilas\\.nuget\\packages\\sfml.graphics\\2.5.0\\sfml.graphics.2.5.0.nupkg.sha512",
+    "C:\\Users\\zilas\\.nuget\\packages\\sfml.net\\2.5.0\\sfml.net.2.5.0.nupkg.sha512",
+    "C:\\Users\\zilas\\.nuget\\packages\\sfml.system\\2.5.0\\sfml.system.2.5.0.nupkg.sha512",
+    "C:\\Users\\zilas\\.nuget\\packages\\sfml.window\\2.5.0\\sfml.window.2.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}
